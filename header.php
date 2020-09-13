@@ -26,7 +26,7 @@
         <script type="text/javascript">
             $(document).ready(function()
             {
-                $('/.manu-toggle').click(function()
+                $('.manu-toggle').click(function()
                 {
                     $('.manu-toggle').toggleClass('active')
                 })

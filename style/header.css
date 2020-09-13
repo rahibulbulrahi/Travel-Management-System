@@ -79,7 +79,6 @@ nav ul li a.active, nav ul li a:hover
         width: 40px;
         height: 40px;
         margin: 10px;
-        background: #ccc;
         float: right;
         cursor: pointer;
         text-align: center;
@@ -91,6 +90,10 @@ nav ul li a.active, nav ul li a:hover
         content: '\f0c9';
         font-family: fontAwesome;
         line-height: 40px;
+    }
+    .manu-toggle.active:before
+    {
+        content: '\f00d';
     }
     nav
     {
