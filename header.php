@@ -6,9 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
-        <header>
+
+    <body>
+    <header>
             <a href="#" class="logo">Easy Tour & Travel</a>
-            <div class="manu-toggle">X</div>
+            <div class="manu-toggle"></div>
                 <nav>
                     <ul>
                         <li><a href="#section-1" class="active">Home</a></li>
@@ -19,8 +21,7 @@
                     </ul>
                 </nav>
                 <div class="clearfix"></div>
-        </header>
-    <body>
-    
+        </header>    
+        <?php include('../js/header.js') ?>
     </body>
 </html>

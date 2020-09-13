@@ -25,7 +25,6 @@ header
     font-size: 36px;
     line-height: 60px;
     padding: 0 20px;
-    background: #fff;
     text-align: center;
     box-sizing: border-box;
     float: left;
@@ -72,7 +71,7 @@ nav ul li a.active, nav ul li a:hover
         margin: 20px;
     }
 }
-@media (max-width:950px)
+@media (max-width:900px)
 {
     .manu-toggle
     {
@@ -89,6 +88,12 @@ nav ul li a.active, nav ul li a:hover
     }
     .manu-toggle:before
     {
-        content: '';
+        content: '\f0c9';
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    nav
+    {
+        display: none;
     }
 }
