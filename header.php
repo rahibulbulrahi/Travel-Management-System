@@ -8,17 +8,17 @@
     </head>
         <header>
             <a href="#" class="logo">Easy Tour & Travel</a>
-            <div class="manu-toggle">
+            <div class="manu-toggle">X</div>
                 <nav>
                     <ul>
-                        <li><a href="#section-1">Home</a></li>
+                        <li><a href="#section-1" class="active">Home</a></li>
                         <li><a href="#section-2">About</a></li>
                         <li><a href="#section-3">Top Tour</a></li>
                         <li><a href="#section-4">Destination</a></li>
                         <li><a href="#section-5">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
+                <div class="clearfix"></div>
         </header>
     <body>
     
