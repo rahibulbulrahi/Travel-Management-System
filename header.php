@@ -22,6 +22,15 @@
                 </nav>
                 <div class="clearfix"></div>
         </header>    
-        <?php include('../js/header.js') ?>
+        <?php include('js/header.js') ?>
+        <script type="text/javascript">
+            $(document).ready(function()
+            {
+                $('/.manu-toggle').click(function()
+                {
+                    $('.manu-toggle').toggleClass('active')
+                })
+            })
+        </script>
     </body>
 </html>
