@@ -99,4 +99,13 @@ nav ul li a.active, nav ul li a:hover
     {
         display: none;
     }
+    nav.active
+    {
+        display: block;
+        width: 100%;
+    }
+    nav.active ul
+    {
+        display: block;
+    }
 }

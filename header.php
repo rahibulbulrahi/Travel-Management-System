@@ -29,6 +29,7 @@
                 $('.manu-toggle').click(function()
                 {
                     $('.manu-toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
                 })
             })
         </script>
