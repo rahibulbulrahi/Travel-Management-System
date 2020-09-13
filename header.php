@@ -13,7 +13,7 @@
             <div class="manu-toggle"></div>
                 <nav>
                     <ul>
-                        <li><a href="#section-1" class="active">Home</a></li>
+                        <li class="active"><a href="#section-1">Home</a></li>
                         <li><a href="#section-2">About</a></li>
                         <li><a href="#section-3">Top Tour</a></li>
                         <li><a href="#section-4">Destination</a></li>
@@ -24,8 +24,9 @@
         </header>    
         <?php include('js/header.js') ?>
         <script type="text/javascript">
-            $(document).ready(function()
+            $(document).on('click','ul li',function()
             {
+                $(this).addClass('active').siblings().removeClass('active')
                 $('.manu-toggle').click(function()
                 {
                     $('.manu-toggle').toggleClass('active')

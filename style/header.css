@@ -57,7 +57,7 @@ nav ul li a
     text-decoration: none;
     color: #262626;
 }
-nav ul li a.active, nav ul li a:hover
+nav ul li.active a, nav ul li a:hover
 {
     background: #069370;
     color: #fff;
@@ -71,7 +71,7 @@ nav ul li a.active, nav ul li a:hover
         margin: 20px;
     }
 }
-@media (max-width:900px)
+@media (max-width:950px)
 {
     .manu-toggle
     {
