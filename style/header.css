@@ -80,11 +80,15 @@ nav ul li a.active, nav ul li a:hover
         width: 40px;
         height: 40px;
         margin: 10px;
-        background: rgb(0, 0, 0);
+        background: #ccc;
         float: right;
         cursor: pointer;
         text-align: center;
         font-size: 30px;
         color: #069370;
+    }
+    .manu-toggle:before
+    {
+        content: '';
     }
 }
