@@ -7,7 +7,7 @@
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     </head>
         <header>
-            <a href="#">Easy Tour & Travel</a>
+            <a href="#" class="logo">Easy Tour & Travel</a>
             <div class="manu-toggle">
                 <nav>
                     <ul>

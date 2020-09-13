@@ -13,7 +13,22 @@ header
     max-width: 1200px;
     margin: 20px auto;
     padding: 10px;
-    background: cyan;
+    background: lightblue;
     box-sizing: border-box;
     border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+.logo
+{
+    color: #069370;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    /*background: #fff;*/
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
 }
