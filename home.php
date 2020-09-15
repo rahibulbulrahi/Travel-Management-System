@@ -10,9 +10,13 @@
     <body>
     
         <div class="section" id="section-1">
-            <div class="sec-1-image">
-                <img class="image-work" src="images/bg1.jpg">
-            </div>
+            <section class="background">
+                <div class="image">
+                    <img class="image-edit" src="images/bg1.jpg">
+
+                    <h1>Travel Across The world</h1>
+                </div>
+            </section>        
         </div>
 
     
