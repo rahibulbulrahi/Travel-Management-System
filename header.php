@@ -8,7 +8,7 @@
     </head>
 
     <body>
-    <header>
+        <header>
             <a href="#" class="logo">Easy Tour & Travel</a>
             <div class="manu-toggle"></div>
                 <nav>
@@ -18,6 +18,7 @@
                         <li><a href="#section-3">Top Tour</a></li>
                         <li><a href="#section-4">Destination</a></li>
                         <li><a href="#section-5">Contact</a></li>
+                        <li><a href="login.php">Log in</a></li>
                     </ul>
                 </nav>
                 <div class="clearfix"></div>
