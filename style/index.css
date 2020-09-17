@@ -134,6 +134,27 @@ h1.title
     color: black;
     margin-bottom: 15px;
 }
+/*Top Tour*/
+.top_tour
+{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+.des_1
+{
+    width: 30%;
+}
+.image-resize
+{
+    height: 300px;
+}
+.des_1 img
+{
+    width: 100%;
+    margin-bottom: 25px;
+    display: block;
+}
 /*Contact US*/
 .form_input
 {
