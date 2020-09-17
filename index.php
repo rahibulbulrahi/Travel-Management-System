@@ -78,6 +78,11 @@
         </div>
       </div>
       <!--Services Finish-->
+      <!--Destination-->
+      <div class="destination" id="destination">
+        <h1 class="title">Top Destination</h1>
+      </div>
+      <!--Destination Finish-->
       <!--Contact-->
       <div class="contact_us" id="contact">
         <h1 class="title">Contact Us</h1>
