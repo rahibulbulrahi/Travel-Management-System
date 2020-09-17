@@ -48,25 +48,26 @@
           versions of Lorem Ipsum.</p>
       </div>
 
-      <div class="services" id="service"></div>
-      <h1 class="title">Our Survices</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus neque similique asperiores sequi, ea nobis ratione maxime quisquam repellat soluta sunt consectetur dicta quod rem voluptatibus atque earum aliquid culpa expedita numquam molestias perspiciatis temporibus. Neque reiciendis, dolor fugit quisquam eligendi aut dignissimos adipisci, incidunt, molestiae in nisi id?</p>
+      <div class="services" id="service">
+        <h1 class="title">Our Survices</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus neque similique asperiores sequi, ea nobis ratione maxime quisquam repellat soluta sunt consectetur dicta quod rem voluptatibus atque earum aliquid culpa expedita numquam molestias perspiciatis temporibus. Neque reiciendis, dolor fugit quisquam eligendi aut dignissimos adipisci, incidunt, molestiae in nisi id?</p>
 
-      <div class="diff_services">
-        <div class="diff_service_item">
-          <img src="images/hotel.jpg" alt="service_image">
-          <h3>Hotel Booking</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
-        </div>
-        <div class="diff_service_item">
-        <img src="images/hotel.jpg" alt="service_image">
-          <h3>Hotel Booking</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
-        </div>
-        <div class="diff_service_item">
-        <img src="images/hotel.jpg" alt="service_image">
-          <h3>Hotel Booking</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+        <div class="diff_services">
+          <div class="diff_service_item">
+            <img src="images/hotel.jpg" alt="service_image">
+            <h3>Hotel Booking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+          </div>
+          <div class="diff_service_item">
+          <img src="images/flight.jpg" alt="service_image">
+            <h3>Flight Booking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+          </div>
+          <div class="diff_service_item">
+          <img src="images/package.jpg" alt="service_image">
+            <h3>Package Booking</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+          </div>
         </div>
       </div>
     </div>
