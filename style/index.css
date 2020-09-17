@@ -15,7 +15,26 @@ p
     margin-bottom: 15px;
     font-size: 14px;
     line-height: 20px;
-    color: #a9a9a9;
+    color: white;
+}
+h1.title
+{
+    margin-bottom: 20px;
+    font-family: 'Handlee', cursive;
+    font-size: 38px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+}
+.btn a
+{
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid #fb2274;
+    line-height: 35px;
+    margin: 25px auto 0;
+    color: #fb2274;
+    text-align: center;
 }
 .main-container
 {
@@ -57,4 +76,28 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.banner_content
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+}
+.banner_content h1
+{
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 15px;
+}
+/*About*/
+.about_para
+{
+    color: grey;
+    text-align: justify;
+}
+.about
+{
+    padding: 5% 10%;
+    text-align: center;
+    justify-content: center;
 }
