@@ -28,5 +28,33 @@ p
     height: 65px;
     display: flex;
     justify-content: space-around;
-    
+    align-items: center;
+    position: absolute;
+}
+.logo a
+{
+    font-family: 'Handlee', cursive;
+    font-size: 32px;
+    color: black;    
+}
+.navbar .navbar_items ul
+{
+    display: flex;
+}
+.navbar .navbar_items ul li
+{
+    text-transform: uppercase;
+    font-family: 'Handlee', cursive;
+    margin: 0 10px;
+}
+/*Banner Image*/
+.banner_image
+{
+    background: url("../images/banner.png") no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

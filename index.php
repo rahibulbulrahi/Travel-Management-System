@@ -26,7 +26,7 @@
 
       <div class="banner_image">
         <div class="banner_content">
-          <h1>Title<span>Title 2</span></h1>
+          <h1>Title</h1>
           <p>Sub Title</p>
         </div>
       </div>
