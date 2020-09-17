@@ -58,6 +58,11 @@ h1.title
     font-size: 32px;
     color: black;    
 }
+.navbar a
+{
+    color: black;
+    font-weight: bold;
+}
 .navbar .navbar_items ul
 {
     display: flex;
@@ -190,4 +195,37 @@ h1.title
     resize: none;
     border: 1px solid #ccc;
 }
-
+/* Footer */
+.footer
+{
+    width: 100%;
+    text-align: center;
+    background: #444444;
+    padding: 20px 0;
+}
+.footer a
+{
+    color: white;
+}
+/*Responsible navbar*/
+@media(max-width: 720px)
+{
+    .navbar
+    {
+        height: auto;
+        flex-direction: column;
+    }
+    .navbar ul
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo
+    {
+        margin-bottom: 25px;
+    }
+    .navbar ul li
+    {
+        margin-bottom: 5px;
+    }
+}

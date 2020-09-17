@@ -15,12 +15,12 @@
         </div>
         <div class="navbar_items">
           <ul>
-            <li><a href="#home"></a>Home</li>
-            <li><a href="#about"></a>About</li>
-            <li><a href="#service"></a>Services</li>
-            <li><a href="#destination"></a>Destination</li>
-            <li><a href="#contact"></a>contact Us</li>
-            <li><a href="#login"></a>Log in</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#contact">contact Us</a></li>
+            <li><a href="#login">Log in</a></li>
           </ul>
         </div>
       </div>
@@ -126,7 +126,11 @@
         </div>
       </div>
       <!--Contact Finish-->
-
+      <!--Footer-->
+      <div class="footer">
+        <a href="#">@ Easy Travel</a>
+      </div>
+      <!--Footer Finish-->
     </div>
   </body>
 </html>
