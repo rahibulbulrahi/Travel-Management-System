@@ -8,6 +8,7 @@
   </head>
   <body>
     <div class="main-container" id="home">
+      <!--Navbar Start-->
       <div class="navbar">
         <div class="logo">
           <a href="#">Easy Tour</a>
@@ -18,19 +19,21 @@
             <li><a href="#about"></a>About</li>
             <li><a href="#service"></a>Services</li>
             <li><a href="#destination"></a>Destination</li>
-            <li><a href="#contact"></a>contact</li>
+            <li><a href="#contact"></a>contact Us</li>
             <li><a href="#login"></a>Log in</li>
           </ul>
         </div>
       </div>
-
-
+      <!--Navbar Finish-->
+      <!--Banner-->
       <div class="banner_image">
         <div class="banner_content">
           <h1>Get Away On This Weekend</h1>
           <p>TO THE HEAVEN BEACH</p>
         </div>
       </div>
+      <!--Banner Finish-->
+      <!--About-->      
       <div class="about" id="about">
         <h1 class="title">About Us</h1>
         <p class="about_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -47,29 +50,54 @@
           Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
           versions of Lorem Ipsum.</p>
       </div>
-
+      <!--Aboust Finish-->
+      <!--Services-->
       <div class="services" id="service">
         <h1 class="title">Our Survices</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus neque similique asperiores sequi, ea nobis ratione maxime quisquam repellat soluta sunt consectetur dicta quod rem voluptatibus atque earum aliquid culpa expedita numquam molestias perspiciatis temporibus. Neque reiciendis, dolor fugit quisquam eligendi aut dignissimos adipisci, incidunt, molestiae in nisi id?</p>
+        <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus neque similique asperiores sequi, ea nobis ratione maxime quisquam repellat soluta sunt consectetur dicta quod rem voluptatibus atque earum aliquid culpa expedita numquam molestias perspiciatis temporibus. Neque reiciendis, dolor fugit quisquam eligendi aut dignissimos adipisci, incidunt, molestiae in nisi id?</p>
 
         <div class="diff_services">
           <div class="diff_service_item">
-            <img src="images/hotel.jpg" alt="service_image">
+            <img class="image-resize" src="images/hotel.jpg" alt="service_image">
             <h3>Hotel Booking</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+            <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+            <div class="btn"><a href="#">Hotel Booking</a></div>
           </div>
           <div class="diff_service_item">
-          <img src="images/flight.jpg" alt="service_image">
+          <img class="image-resize" src="images/flight.jpg" alt="service_image">
             <h3>Flight Booking</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+            <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+            <div class="btn"><a href="#">Flight Booking</a></div>
           </div>
           <div class="diff_service_item">
-          <img src="images/package.jpg" alt="service_image">
+          <img class="image-resize" src="images/package.jpg" alt="service_image">
             <h3>Package Booking</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+            <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
+            <div class="btn"><a href="#">Package Booking</a></div>
           </div>
         </div>
       </div>
+      <!--Services Finish-->
+      <!--Contact-->
+      <div class="contact_us" id="contact">
+        <h1 class="title">Contact Us</h1>
+        <div class="form_wrapepr">
+          <div class="form_input">
+            <input type="text" placeholder="Name">
+          </div>
+          <div class="form_input">
+            <input type="text" placeholder="Email">
+          </div>
+          <div class="form_input">
+            <textarea placeholder="Message Us"></textarea>
+          </div>
+          <div class="btn">
+            <a href="#">Submit</a>
+          </div>
+        </div>
+      </div>
+      <!--Contact Finish-->
+
     </div>
   </body>
 </html>
