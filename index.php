@@ -80,19 +80,30 @@
       <!--Services Finish-->
       <!--Destination-->
       <div class="destination" id="destination">
-        <h1 class="title">Top Destination</h1>
-        
-        <div class="top_tour">
-          <div class="des_1">
-            <img src="images/t1.jpg" alt="tour_image">
+        <h1 class="title">Destination</h1>
+        <div class="destination_wrapper">
+          <div class="tour-1 tour">
+            <div class="tour_image">
+              <img src="images/t1.jpg" alt="tour_images">
+            </div>
+            <div class="tour_image">
+             <img src="images/t2.jpg" alt="tour_images">
+            </div>
+            <div class="tour_image">
+             <img src="images/t3.jpg" alt="tour_images">
+            </div>
           </div>
-          <div class="des_1">
-            <img src="images/t2.jpg" alt="tour_image">
+          <div class="tour-2 tour">
+          <div class="tour_image">
+              <img src="images/t4.jpg" alt="tour_images">
+            </div>
+            <div class="tour_image">
+             <img src="images/t5.jpg" alt="tour_images">
+            </div>
+            <div class="tour_image">
+             <img src="images/t6.jpg" alt="tour_images">
+            </div>
           </div>
-          <div class="des_1">
-            <img src="images/t3.jpg" alt="tour_image">
-          </div>
-          
         </div>
       </div>
       <!--Destination Finish-->
