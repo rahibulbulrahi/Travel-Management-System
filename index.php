@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <div class="main-container" id="home">
@@ -12,6 +13,7 @@
       <nav>
         <ul>
           <li class="logo">Easy Tour</li>
+          <li class="button"><span class="fas fa-bars"></span></li>
           <div class="items">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
