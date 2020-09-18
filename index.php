@@ -7,21 +7,39 @@
     <link rel="stylesheet" href="style/index.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
   </head>
   <body>
+    <section data-index="0" class="home">
     <div class="main-container" id="home">
       <!--Navbar Start-->
-      <?php include('header.php') ?>
+      <header>
+        <nav>
+            <h1>Easy Tour</h1>
+            <ul>
+            <li><a data-page="home" href="#home">Home</a></li>
+            <li><a data-page="about" href="#about">About</a></li>
+            <li><a data-page="service" href="#service">Services</a></li>
+            <li><a data-page="destination" href="#destination">Destination</a></li>
+            <li><a data-page="ontact" href="#contact">contact Us</a></li>
+            <li><a href="#login">Log in</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <script src="js/header.js"></script>
       <!--Navbar Finish-->
-      <!--Banner-->
+      <!--Banner-->  
       <div class="banner_image">
         <div class="banner_content">
           <h1>Get Away On This Weekend</h1>
           <p>TO THE HEAVEN BEACH</p>
         </div>
       </div>
+      </section>
       <!--Banner Finish-->
-      <!--About-->      
+      <!--About-->
+      <section data-index="1" class="about">   
       <div class="about" id="about">
         <h1 class="title">About Us</h1>
         <p class="about_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -38,8 +56,10 @@
           Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
           versions of Lorem Ipsum.</p>
       </div>
+      </section>
       <!--Aboust Finish-->
       <!--Services-->
+      <section data-index="2" class="service">
       <div class="services" id="service">
         <h1 class="title">Our Survices</h1>
         <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus neque similique asperiores sequi, ea nobis ratione maxime quisquam repellat soluta sunt consectetur dicta quod rem voluptatibus atque earum aliquid culpa expedita numquam molestias perspiciatis temporibus. Neque reiciendis, dolor fugit quisquam eligendi aut dignissimos adipisci, incidunt, molestiae in nisi id?</p>
@@ -65,8 +85,10 @@
           </div>
         </div>
       </div>
+      </section>
       <!--Services Finish-->
       <!--Destination-->
+      <section data-index="3" class="destination">
       <div class="destination" id="destination">
         <h1 class="title">Destination</h1>
         <div class="destination_wrapper">
@@ -94,8 +116,10 @@
           </div>
         </div>
       </div>
+      </section>
       <!--Destination Finish-->
       <!--Contact-->
+      <section data-index="4" class="contact">
       <div class="contact_us" id="contact">
         <h1 class="title">Contact Us</h1>
         <div class="form_wrapepr">
@@ -113,6 +137,7 @@
           </div>
         </div>
       </div>
+      </section>
       <!--Contact Finish-->
       <!--Footer-->
       <div class="footer">
