@@ -43,76 +43,7 @@ h1.title
     position: relative;
 }
 /*Navigation bar*/
-nav
-{
-    background: white;
-    padding: 10px 40px 10px 70px;
-    border-left: none;
-    border-right: none;
-}
-nav ul
-{
-    display: flex;
-    list-style: none;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-nav ul li.logo
-{
-    flex: 1;
-    font-size: 32px;
-    font-weight: 700;
-    font-family: 'Handlee', cursive;
-}
-nav ul .items
-{
-    padding: 0 25px;
-    display: inline-flex;
-}
-nav ul .items a
-{
-    text-decoration: none;
-    font-size: 18px;
-    padding: 0 12px;
-    font-family: 'Poppins', sans-serif;
-    color: grey;
-}
-nav ul .items a:hover
-{
-    color: black;
-}
-nav ul li.button
-{
-    font-size: 29px;
-    color: black;
-    padding: 0 40px;
-    flex: 1;
-}
-nav ul li.button span
-{
-    height: 42px;
-    width: 42px;
-    text-align: center;
-    line-height: 42px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-@media screen and (max-width: 920px)
-{
-    nav
-    {
-        padding: 10px 40px 10px 0px;
-    }
-    nav ul li.logo
-    {
-        display: none;
-    }
-    nav ul .items
-    {
-        flex: 4;
-    }
-}
+
 /*Banner Image*/
 .banner_image
 {
