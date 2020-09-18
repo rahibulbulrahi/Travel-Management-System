@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Poppins:wght@500&display=swap');
+
+/*
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Handlee', cursive;
+*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --dark-color: #2d2c2c;
+    --purple-solid: #350a4f;
+    --purple-transparent: rgba(53, 10, 79, .7);
+    --purple-transparent-alt: rgba(53, 10, 79, .5);
+    --purple-light: #8f50fb;
+    --yellow-solid: #fa9e2c;
+    --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
+    --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
+}
+/* Global */
+html
+{
+    font-size: 10px;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: var(--dark-color);
+}
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
