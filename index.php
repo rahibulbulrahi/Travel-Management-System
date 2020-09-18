@@ -10,26 +10,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge" />
   </head>
   <body>
-    <section data-index="0" class="home">
+    
     <div class="main-container" id="home">
       <!--Navbar Start-->
-      <header>
-        <nav>
-            <h1>Easy Tour</h1>
-            <ul>
-            <li><a data-page="home" href="#home">Home</a></li>
-            <li><a data-page="about" href="#about">About</a></li>
-            <li><a data-page="service" href="#service">Services</a></li>
-            <li><a data-page="destination" href="#destination">Destination</a></li>
-            <li><a data-page="ontact" href="#contact">contact Us</a></li>
-            <li><a href="#login">Log in</a></li>
-            </ul>
-        </nav>
-    </header>
+   <?php include('header.php')?>
     
-    <script src="js/header.js"></script>
+   
       <!--Navbar Finish-->
       <!--Banner-->  
+     
       <div class="banner_image">
         <div class="banner_content">
           <h1>Get Away On This Weekend</h1>
@@ -39,7 +28,7 @@
       </section>
       <!--Banner Finish-->
       <!--About-->
-      <section data-index="1" class="about">   
+         
       <div class="about" id="about">
         <h1 class="title">About Us</h1>
         <p class="about_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -59,7 +48,7 @@
       </section>
       <!--Aboust Finish-->
       <!--Services-->
-      <section data-index="2" class="service">
+     
       <div class="services" id="service">
         <h1 class="title">Our Survices</h1>
         <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt delectus neque similique asperiores sequi, ea nobis ratione maxime quisquam repellat soluta sunt consectetur dicta quod rem voluptatibus atque earum aliquid culpa expedita numquam molestias perspiciatis temporibus. Neque reiciendis, dolor fugit quisquam eligendi aut dignissimos adipisci, incidunt, molestiae in nisi id?</p>
@@ -88,7 +77,7 @@
       </section>
       <!--Services Finish-->
       <!--Destination-->
-      <section data-index="3" class="destination">
+      
       <div class="destination" id="destination">
         <h1 class="title">Destination</h1>
         <div class="destination_wrapper">
@@ -119,7 +108,7 @@
       </section>
       <!--Destination Finish-->
       <!--Contact-->
-      <section data-index="4" class="contact">
+    
       <div class="contact_us" id="contact">
         <h1 class="title">Contact Us</h1>
         <div class="form_wrapepr">
