@@ -26,8 +26,10 @@ h1.title
     word-spacing: 25px;
     letter-spacing: 5px;
 }
+
 .btn a
 {
+    text-decoration:none !important;
     display: block;
     width: 180px;
     height: 35px;
@@ -36,7 +38,10 @@ h1.title
     margin: 25px auto 0;
     text-align: center;
     color: #fb2274;
-    
+}
+.btn a:hover
+{
+    color: #fb2274;
 }
 .main-container
 {

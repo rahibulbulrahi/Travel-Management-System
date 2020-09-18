@@ -49,7 +49,7 @@
             <img class="image-resize" src="images/hotel.jpg" alt="service_image">
             <h3>Hotel Booking</h3>
             <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet recusandae sint laborum aperiam, minima necessitatibus quaerat? Perferendis magnam cupiditate vitae.</p>
-            <div class="btn"><a href="#">Hotel Booking</a></div>
+            <div class="btn"><a href="hotel.php">Hotel Booking</a></div>
           </div>
           <div class="diff_service_item">
           <img class="image-resize" src="images/flight.jpg" alt="service_image">
