@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/hotel.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Easy Travel</a>
+            <a class="navbar-brand" href="index.php">Easy Travel</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,9 +37,6 @@
                     </li>
                     <li class="nav-item">
                         <a data-page="offer" class="nav-link" href="#services">Service</a>
-                    </li>
-                    <li class="nav-item">
-                        <a data-page="news" class="nav-link" href="#news">News</a>
                     </li>
                     <li class="nav-item">
                         <a data-page="contact" class="nav-link" href="#contact">Contact</a>
@@ -136,109 +134,60 @@
             </div>
         </div>
     </div>
-<!--Our sevices-->
-<!-- Gallery -->
-<section class="portfolio-w3ls" id="gallery">
-		 <h3 class="title-w3-agileits title-black-wthree">Our Gallery</h3>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g1.jpg" class="swipebox"><img src="images/g1.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g3.jpg" class="swipebox"><img src="images/g3.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g5.jpg" class="swipebox"><img src="images/g5.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g6.jpg" class="swipebox"><img src="images/g6.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g6.jpg" class="swipebox"><img src="images/g7.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g6.jpg" class="swipebox"><img src="images/g8.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-					<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g9.jpg" class="swipebox"><img src="images/g9.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g10.jpg" class="swipebox"><img src="images/g10.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 gallery-grid gallery1">
-					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>SUN RISE</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="clearfix"> </div>
-        </section>
-<!-- //gallery -->
+<!-- contact -->
+<section class="contact-w3ls" id="contact">
+	<div class="container">
+		<div class="col-lg-6 col-md-6 col-sm-6 contact-w3-agile2" data-aos="flip-left">
+			<div class="contact-agileits">
+				<h4>Contact Us</h4>
+				<p class="contact-agile2">Sign Up For Our News Letters</p>
+				<form  method="post" name="sentMessage" id="contactForm" >
+					<div class="control-group form-group">
+                        
+                            <label class="contact-p1">Full Name:</label>
+                            <input type="text" class="form-control" name="name" id="name" required >
+                            <p class="help-block"></p>
+                       
+                    </div>	
+                    <div class="control-group form-group">
+                        
+                            <label class="contact-p1">Phone Number:</label>
+                            <input type="tel" class="form-control" name="phone" id="phone" required >
+							<p class="help-block"></p>
+						
+                    </div>
+                    <div class="control-group form-group">
+                        
+                            <label class="contact-p1">Email Address:</label>
+                            <input type="email" class="form-control" name="email" id="email" required >
+							<p class="help-block"></p>
+						
+                    </div>
+                    
+                    
+                    <input type="submit" name="sub" value="Send Now" class="btn btn-primary">	
+				</form>
+				<?php
+				if(isset($_POST['sub']))
+				{
+					$name =$_POST['name'];
+					$phone = $_POST['phone'];
+					$email = $_POST['email'];
+					$approval = "Not Allowed";
+					$sql = "INSERT INTO `contact`(`fullname`, `phoneno`, `email`,`cdate`,`approval`) VALUES ('$name','$phone','$email',now(),'$approval')" ;
+					
+					
+					if(mysqli_query($con,$sql))
+					echo"OK";
+					
+				}
+				?>
+			</div>
+		</div>
+		
+</section>
+<!-- /contact -->
+ 
 
 </body>
 </html>
