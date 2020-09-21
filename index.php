@@ -130,7 +130,7 @@
       <!--Contact Finish-->
       <!--Footer-->
       <div class="footer">
-        <a href="#">@ Easy Travel</a>
+        <p>Copyright &copy; Easy Tour
       </div>
       <!--Footer Finish-->
       <div class="arrow">

@@ -186,7 +186,7 @@
 </section>
 <!-- /contact -->
     <div class="copy">
-	    <p>© 2020 EASY TOUR . All Rights Reserved | Design by <a href="index.php">Easy Tour</a> </p>
+        <p>Copyright &copy; Easy Tour - Hotel Section <a href="index.php">Easy Tour</a> </p>
 	</div>
     <div class="arrow">
         <a href="#home"><img src="images/arrow.png" alt="up_arrow"></a>
