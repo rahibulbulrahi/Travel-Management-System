@@ -54,9 +54,7 @@
                 <h1 class="title">Discover</h1>
                 <h2 class="subtitle">Luxury Hotels</h2>
             </div>
-            <a href="#" class="btn btn-gradient">Explore Now
-                <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
-            </a>
+            
         </div>
     </div>
     <!--Home Finish-->
@@ -187,7 +185,11 @@
 		
 </section>
 <!-- /contact -->
- 
-
+    <div class="copy">
+	    <p>© 2020 EASY TOUR . All Rights Reserved | Design by <a href="index.php">Easy Tour</a> </p>
+	</div>
+    <div class="arrow">
+        <a href="#home"><img src="images/arrow.png" alt="up_arrow"></a>
+      </div>
 </body>
 </html>

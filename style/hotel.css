@@ -753,4 +753,299 @@ color: #fff !important;
     outline: none;
     border: none;
 }
-/*-- /contact --*/
+/*-- contact --*/
+/*Copy right*/
+.copy {
+    text-align: center;
+    background: #0f2453;
+}
+.copy p {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 1em;
+}
+.copy p a {
+    color: #ffce14;
+    text-decoration: none;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.copy p a:hover{
+	color:#fff;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+/*arrow*/
+.arrow
+{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background: grey;
+    border-radius: 50%;
+}
+.arrow img
+{
+    width: 20xp;
+    height: 20px;
+    z-index: 1;
+}
+@media(max-width:768px){
+	.book-form form input[type="submit"] {
+		font-size: 13px;
+	}
+	.banner-bottom h3 span {
+		font-size: 16px!important;
+	}
+	.banner-bottom h3 {
+		font-size: 13px;
+	}
+	.w3_grid_effect {
+		padding: 1.5em;
+	}
+	.cbp-ig-icon:before {
+		font-size: 2.5em;
+	}
+	.cbp-ig-grid .cbp-ig-title {
+		font-size: .8em;
+	}
+	p.about-para-w3ls {
+		font-size: 14.5px;
+	}
+	.w3l-slider-img {
+		top: 20.5em;
+	}
+	.w3ls-info-about h4 {
+		font-size: 1.1em;
+	}
+	.w3ls-info-about p {
+		font-size: 0.8em;
+	}
+	.w3ls-info-about {
+		left: 36%;
+		top: 105.5%;
+		width: 64%;
+	}
+	.advantage-block h4 {
+		font-size: 19px;
+		margin: 0.8em 0em 0.2em 0em;
+	}
+	.advantage-block p {
+		font-size: 14.5px;
+		line-height: 33px;
+	}
+	.resp-accordion img{
+		border-radius: 50%;
+		   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+		-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+		-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+		-o-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+		-ms-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16);
+	}
+	h2.resp-accordion:first-child,h2.resp-accordion {
+		border-top: none !important;
+		border:none!important;
+	}
+	.w3layouts_work_grid_left_pos img {
+		border: 7px solid #ffffff;
+	}
+	.team-Info-agileits p {
+		font-size: 14.5px;
+	}
+	.team-Info-agileits h4 {
+		font-size: 20px;
+	}
+	.w3layouts_work_grid_right p {
+		font-size: 14.5px;
+		line-height: 2em;
+	}
+	.flex-control-paging li a {
+		font-size: 13px;
+	}
+	h3.title-w3-agileits {
+		font-size: 2em;
+		letter-spacing: 2px;
+	}
+	.w3layouts_work_grid_right h5 {
+		font-size: 1.1em;
+	}
+	.contact-w3ls, .advantages, .banner-bottom, .w3l-visitors-agile, .plans-section, .team {
+		padding: 55px 0px;
+	}
+	.about-wthree {
+		padding: 4em 0 15.9em 0px;
+	}
+	.about-wthree {
+		padding: 3em 0 13.9em 0px;
+	}
+}
+@media(max-width:480px){
+	.banner-top .social-bnr-agileits {
+		float: none;
+		text-align: center;
+		margin: 10px 0;
+	}
+	.search_form {
+		top: 89px;
+	}
+	.search_box:checked~.search_form {
+		top: 87px;
+	}
+	.contact-bnr-w3-agile ul li {
+		padding: 10px 20px;
+	}
+	.navbar-brand {
+		font-size: 20px;
+	}
+	p.logo_w3l_agile_caption {
+		letter-spacing: 2.2px;
+		line-height: 17px;
+	}
+	.navbar-toggle .icon-bar {
+		width: 19px;
+	}
+	.navbar-default .navbar-toggle {
+		margin-top: 5px!important;
+		padding: 7px 8px;
+	}
+	nav.navbar.navbar-default {
+		padding: .58em 0 0em 0;
+	}
+	.agileits-banner-info h4 {
+		font-size: 1.5em;
+		letter-spacing: 10px;
+	}
+	.agileits-banner-info p {
+		margin: .5em auto;
+		letter-spacing: 4px;
+	}
+	.agileits-banner-info {
+		padding: 2em 0em;
+	}
+	.w3layouts-banner-top, .w3layouts-banner-top1, .w3layouts-banner-top2 {
+		min-height: 250px;
+	}
+	.callbacks_tabs {
+		top: 46.5%;
+		left: 39.9%;
+	}
+	.thim-click-to-bottom {
+		left: 47.5%;
+	}
+	.book-form form input[type="submit"] {
+		margin: .9em 0 0 11em;
+	}
+	.banner-bottom h3 {
+		letter-spacing: 1.5px;
+	}
+	.cbp-ig-grid .cbp-ig-title {
+		font-size: .7em;
+	}
+	.cbp-ig-grid .cbp-ig-category {
+		font-size: .75em;
+	}
+	p.about-para-w3ls {
+		font-size: 14px;
+	}
+	.w3ls-info-about {
+		left: 0%;
+		width: 100%;
+		top: 108.5%;
+	}
+	.about-wthree {
+		padding: 2.6em 0 12em 0px;
+	}
+	.advantage-block p {
+		font-size: 14px;
+		line-height: 30px;
+	}
+	.tab1 .team-img-w3-agile, .tab2 .team-img-w3-agile, .tab3 .team-img-w3-agile, .tab4 .team-img-w3-agile {
+		min-height: 360px;
+		width: 83%;
+		margin: 0 auto;
+		float: none;
+	}
+	.team-Info-agileits {
+		padding: 1.5em 0 0 1.9em;
+		width: 100%;
+		float: none;
+	}
+	.team-Info-agileits p {
+		font-size: 14px;
+	}
+	.team-Info-agileits span {
+		font-size: 11px;
+	}
+	.team-Info-agileits h4 {
+		font-size: 19px;
+	}
+	.tpl6 .dmbutton {
+		margin: 70px 5px 20px 5px;
+	}
+	.viewbox-button-next, .viewbox-button-prev {
+		top: 58%;
+	}
+	.priceing-table-main {
+		width: 61%;
+	}
+	.price-gd-top h4 {
+		top: 12.8em;
+		font-size: 1.1em;
+	}
+	.price-selet h3 {
+		font-size: 1.3em;
+	}
+	.price-selet h3 span {
+		font-size: 27px;
+	}
+	.price-selet a {
+		padding: 0.2em 1.5em;
+	}
+	.flex-control-nav li {
+		margin: 9px 0;
+	}
+	.flex-control-nav {
+		top: 13%;
+	}
+	h3.title-w3-agileits {
+		font-size: 1.6em;
+	}
+	.w3layouts_work_grid_right p {
+		font-size: 14px;
+		letter-spacing: 0.5px;
+		line-height: 30px;
+	}
+	.w3layouts_work_grid_right h4 {
+		font-size: 12px;
+	}
+	section.contact-w3ls input#name, section.contact-w3ls input#email, section.contact-w3ls input#phone {
+		height: 30px;
+	}
+	section.contact-w3ls button.btn.btn-primary {
+		padding: 5px 20px;
+	}
+	section.contact-w3ls label.contact-p1 {
+		font-size: 14px;
+		padding-bottom: 2px;
+	}
+	.contact-w3-agile2, .contact-w3-agile1 {
+		width: 100%;
+	}
+	.copy p {
+		font-size: 13px;
+		line-height: 29px;
+		padding: 10px 20px;
+	}
+}
