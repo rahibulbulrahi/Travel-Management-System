@@ -413,3 +413,54 @@ p.about-para-w3ls {
     margin-bottom: 2em;
 }
 /*-- //about --*/
+/*--sevices-section--*/
+.advantages {
+    background: url(../images/services.jpg)no-repeat;
+    min-height: 350px;
+    background-size: cover;
+}
+.advantage-block {
+    padding:2em 2em;
+    background: rgba(0, 0, 0, 0.52);
+    text-align: center;
+}
+.advantage-block:hover {
+    background: rgba(255, 255, 255, 0.22);
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.advantage-block h4 {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0.5em 0em 0.5em 0em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.advantage-block p {
+    font-size: 16px;
+    color: #FFF;
+    /* line-height: 1.8em; */
+    text-align: left;
+    padding-left: 3em;
+    line-height: 35px;
+	letter-spacing: .8px;
+}
+.advantage-grid {
+    padding: 0;
+}
+.left-w3ls {
+    border-right: 1px solid #b1b1b1;
+}
+.advantage-block .fa-credit-card,.advantage-block .fa-clock-o {
+    color: #ffce14;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.advantage-block p i {
+    color: #ffce14;
+    font-size: 13px;
+    margin-right: 10px;
+}
+/*--//services-section--*/
