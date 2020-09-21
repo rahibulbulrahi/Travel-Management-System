@@ -7,7 +7,8 @@
     <title>Easy Tour - Hotel Booking</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/hotel.css">
 </head>
 <body>
@@ -61,50 +62,42 @@
         </div>
     </div>
     <!--Home Finish-->
-    <!--Booking-->
-    <section class="booking">
-        <div class="control">
-            <form action="" class="form">
-                <div class="input-group">
-                    <label for="destination" class="input-label">Destination</label>
-                    <input type="text" class="input" id="destination">
-                </div>
-                <div class="input-group">
-                    <label for="check-in" class="input-label">Check in</label>
-                    <input type="date" class="input" id="check-in">
-                </div>
-                <div class="input-group">
-                    <label for="check-out" class="input-label">Check out</label>
-                    <input type="date" class="input" id="check-out">
-                </div>
-                <div class="input-group">
-                    <label for="adults" class="input-label">Adults</label>
-                    <select id="adults" class="options">
-                    <option value="0">0</option>
-                    <option value="0">1</option>
-                    <option value="0">2</option>
-                    <option value="0">3</option>
-                    <option value="0">4</option>
-                    <option value="0">5</option>
-                    </select>
-                </div>
-                <div class="input-group">
-                    <label for="children" class="input-label">Children</label>
-                    <select id="children" class="options">
-                    <option value="0">0</option>
-                    <option value="0">1</option>
-                    <option value="0">2</option>
-                    <option value="0">3</option>
-                    <option value="0">4</option>
-                    <option value="0">5</option>
-                    </select>
-                </div>
-                <button type="submit" class="btn form-btn btn-purple">Search
-                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
-                </button>
-            </form>
-        </div>        
-    </section>
-    <!--Booking Finish-->
+    <!--Banner Bottom-->
+    <div class="banner-bottom">
+		<div class="container">	
+			<div class="agileits_banner_bottom">
+				<h3><span>Experience a good stay, enjoy fantastic offers</span> Find our friendly welcoming reception</h3>
+			</div>
+			<div class="w3ls_banner_bottom_grids">
+				<ul class="cbp-ig-grid">
+					<li>
+						<div class="w3_grid_effect">
+							<span class="cbp-ig-icon w3_road"></span>
+							<h4 class="cbp-ig-title">MASTER BEDROOMS</h4>
+						</div>
+					</li>
+					<li>
+						<div class="w3_grid_effect">
+							<span class="cbp-ig-icon w3_cube"></span>
+							<h4 class="cbp-ig-title">SEA VIEW BALCONY</h4>
+						</div>
+					</li>
+					<li>
+						<div class="w3_grid_effect">
+							<span class="cbp-ig-icon w3_users"></span>
+							<h4 class="cbp-ig-title">LARGE CAFE</h4>
+						</div>
+					</li>
+					<li>
+						<div class="w3_grid_effect">
+							<span class="cbp-ig-icon w3_ticket"></span>
+							<h4 class="cbp-ig-title">WIFI COVERAGE</h4>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+    <!--Booking Bottom Finish-->
 </body>
 </html>
