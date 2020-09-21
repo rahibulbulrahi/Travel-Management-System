@@ -364,3 +364,52 @@ h3.title-w3-agileits {
 .title-black-wthree{
 	color:#0f2453!important;
 }
+/*-- /about --*/
+.about-wthree {
+    padding: 5em 0 22.6em 0px;
+    background: #eceef2;
+}
+.ab-w3l-spa {
+    text-align: center;
+    position: relative;
+}
+.w3l-slider-img {
+    border: 10px solid rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 2em;
+    top: 29em;
+}
+.w3ls-info-about {
+    position: absolute;
+    left: 46%;
+    z-index: 99;
+    padding: 2em 4.5em;
+    top: 107%;
+    border: 10px solid #000;
+}
+.w3ls-info-about h4 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #ffce14;
+    /* margin-bottom: 11px; */
+    line-height: 1.4em;
+    text-transform: capitalize;
+    background: #0f2453;
+    padding: 10px 15px;
+}
+.w3ls-info-about p {
+    /* margin: 0em 0 2em 0; */
+    color: #ffffff;
+    line-height: 2.2em;
+    background: rgba(0, 0, 0, 0.85);
+    font-size: 0.9em;
+    letter-spacing: 2px;
+}
+p.about-para-w3ls {
+    color: #777;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 2em;
+}
+/*-- //about --*/
