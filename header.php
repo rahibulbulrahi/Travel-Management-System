@@ -29,8 +29,13 @@
             <li class="nav-item">
                 <a data-page="about" class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
-                <a data-page="service" class="nav-link" href="#service">Service</a>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="service" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Service
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="hotel.php">Hotel</a>
+            <a class="dropdown-item" href="flight.php">Flight</a>
             </li>
             <li class="nav-item">
                 <a data-page="destination" class="nav-link" href="#destination">Destination</a>
