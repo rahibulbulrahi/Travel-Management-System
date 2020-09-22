@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Flight Booking</title>
+    <title>Hotel Booking</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -16,7 +16,7 @@
     </script>
     <style>
     body {
-        background-image: url("images/beach4.jpg");
+        background-image: url("images/banner.png");
     }
     </style>
 </head>
@@ -89,8 +89,9 @@
             <!-- col 2 -->
             <div class="col-10 bg-transparent">
                 <div class="container-fluid">
-                    <a href="newflightbooking.php" class="btn btn-info mb-2"><i class="fa fa-plus"
-                            aria-hidden="true"></i> New
+                    <a href="newhotelbooking.php" class="btn btn-info mb-2"><i class="fa fa-plus"
+                            aria-hidden="true"></i>
+                        New
                         Booking</a>
                     <table class="table table-hover table-light">
                         <thead class="thead-dark">
@@ -108,7 +109,7 @@
                                 <td>Mark</td>
                                 <td>Otto</td>
                                 <td>@mdo</td>
-                                <td><a class='btn btn-outline-dark mr-2' href="updateflightbooking.php"><i
+                                <td><a class='btn btn-outline-dark mr-2' href="updatehotelbooking.php"><i
                                             class="fa fa-pencil" aria-hidden="true"></i> Update</a><a href='#'
                                         class='btn btn-outline-danger'><i class="fa fa-trash" aria-hidden="true"></i>
                                         Cancel</a></td>
@@ -118,7 +119,7 @@
                                 <td>Jacob</td>
                                 <td>Thornton</td>
                                 <td>@fat</td>
-                                <td><a class='btn btn-outline-dark mr-2' href="updateflightbooking.php"><i
+                                <td><a class='btn btn-outline-dark mr-2' href="updatehotelbooking.php"><i
                                             class="fa fa-pencil" aria-hidden="true"></i> Update</a><a href='#'
                                         class='btn btn-outline-danger'><i class="fa fa-trash" aria-hidden="true"></i>
                                         Cancel</a></td>
@@ -128,7 +129,7 @@
                                 <td>Larry</td>
                                 <td>the Bird</td>
                                 <td>@twitter</td>
-                                <td><a class='btn btn-outline-dark mr-2' href="updateflightbooking.php"><i
+                                <td><a class='btn btn-outline-dark mr-2' href="updatehotelbooking.php"><i
                                             class="fa fa-pencil" aria-hidden="true"></i> Update</a><a href='#'
                                         class='btn btn-outline-danger'><i class="fa fa-trash" aria-hidden="true"></i>
                                         Cancel</a></td>
