@@ -31,6 +31,10 @@
         <input type="email" name="email" class="form-control mb-2" placeholder="Email address" required autofocus="" />
         <label for="password" class="sr-only">Password</label>
         <input type="password" name="password" class="form-control" required placeholder="Password" />
+        <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+        <label class="form-check-label" for="autoSizingCheck2"><p class="mb-2 text-white">Remember Me</p></label>
+        </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">
             Sign in
         </button>
