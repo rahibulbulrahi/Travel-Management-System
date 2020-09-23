@@ -35,9 +35,7 @@
         <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
         <label class="form-check-label" for="autoSizingCheck2"><p class="mb-2 text-white">Remember Me</p></label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">
-            Sign in
-        </button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="signin" value="signin">Sign in</button>
         <p class="mb-2 text-muted">Not Registered,</p>
         <a class="btn btn-lg btn-primary btn-block" href="register.php">Register Now</a>
         <div></div>
@@ -61,6 +59,7 @@
         return true;
     }
     </script>
+        
 </body>
 
 
