@@ -41,6 +41,9 @@
                     <li class="nav-item">
                         <a data-page="contact" class="nav-link" href="#contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a data-page="contact" class="nav-link" href="login.php">Login</a>
+                    </li>
                     <div class="bubble"></div>
                 </ul>
             </div>
@@ -91,9 +94,10 @@
 						</div>
 					</li>
 				</ul>
-			</div>
+            </div>
+           
 		</div>
-	</div>
+    </div>
     <!--Booking Bottom Finish-->
     <!--about -->
  	<div class="about-wthree" id="about">
@@ -132,6 +136,7 @@
             </div>
         </div>
     </div>
+    
 <!-- contact -->
 <section class="contact-w3ls" id="contact">
 	<div class="container">

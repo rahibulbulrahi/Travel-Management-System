@@ -536,11 +536,13 @@
                                     <button type="submit" id="form-submit" class="btn">Submit Your Message</button>
                                 </fieldset>
                             </div>
+                            
                         </div>
                     </form>
                 </div>
             </div>
         </div>
+        <button type="button" class="btn booking btn-outline-dark btn-secondary btn-lg"><a href="login.php" class="login">Booking now</a></button>
     </section>
 
 
