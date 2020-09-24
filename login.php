@@ -25,12 +25,15 @@
 </head>
 
 <body class="text-center" data-gr-c-s-loaded="true">
-    <form class="form-signin" method="POST" action="dashboard.php" name="datavalid" onsubmit="return validateForm()">
+    
+    <form class="form-signin" method="POST" action="logincontrol.php" name="datavalid" onsubmit="return validateForm()">
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-        <label for="email" class="sr-only">Email address</label>
-        <input type="email" name="email" class="form-control mb-2" placeholder="Email address" required autofocus="" />
+        <label for="username" class="sr-only">User Name</label>
+        <input type="text" name="username" class="form-control mb-2" placeholder="User Name" required autofocus="" />
+        
         <label for="password" class="sr-only">Password</label>
         <input type="password" name="password" class="form-control" required placeholder="Password" />
+        
         <div class="form-check">
         <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
         <label class="form-check-label" for="autoSizingCheck2"><p class="mb-2 text-white">Remember Me</p></label>
