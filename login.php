@@ -1,6 +1,4 @@
-<?php 
-    session_start();
-?>
+
 <html>
 
 <head>
@@ -29,10 +27,11 @@
 
 <body class="text-center" data-gr-c-s-loaded="true">
     
-    <?php
+   <?php
+         session_start();
         include('dbcon.php');
 
-        if(isset($_POST['signin']))
+        if(isset($_POST['submit']))
         {
             $username = $_POST['username'];
             $password = $_POST['password'];
@@ -44,15 +43,42 @@
 
             if($user_count)
             {
+                $user_pass = mysqli_fetch_assoc($query);
                 
+                $db_pass = $user_pass['password'];
+
+                $pass_decode = password_verify($password, $db_pass);
+
+                if($pass_decode)
+                {
+                    echo "Login Complete";
+                   ?>
+                    <script>
+                        location.replace("dashboard.php");
+                    </script>
+                    <?php
+                    header('location:dashboard.php');
+                }
+                else
+                {
+                    echo "Password does not match";
+                    ?>
+                    <script>
+                        location.replace("login.php");
+                    </script>
+                    <?php
+                }
+            }else{
+                echo "Invalid User Name";
             }
 
         }
     ?>
 
 
-    <form class="form-signin" method="POST" action="<?php echo htmlentities($_SERVER["PHP_SELF"]);?>" name="datavalid" onsubmit="return validateForm()">
+    <form class="form-signin" method="POST" action="loginprocess.php" name="datavalid" onsubmit="return validateForm()">
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        
         <label for="username" class="sr-only">User Name</label>
         <input type="text" name="username" class="form-control mb-2" placeholder="User Name" required autofocus="" />
         
@@ -63,7 +89,7 @@
         <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
         <label class="form-check-label" for="autoSizingCheck2"><p class="mb-2 text-white">Remember Me</p></label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit" name="signin" value="signin">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="signin">Sign in</button>
         <p class="mb-2 text-muted">Not Registered,</p>
         <a class="btn btn-lg btn-primary btn-block" href="register.php">Register Now</a>
         <div></div>

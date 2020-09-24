@@ -44,7 +44,7 @@
         $password = mysqli_real_escape_string($con, $_POST['password']);
         $password2 = mysqli_real_escape_string($con, $_POST['repeatpassword']);
 
-        $pass = password_hash($password, PASSWORD_BCRYPT);
+      //  $pass = password_hash($password, PASSWORD_BCRYPT);
 
         $usernamequery = "select * from user where username = '$username'";
         $query = mysqli_query($con, $usernamequery);
@@ -59,7 +59,7 @@
         {
             if($password === $password2)
             {
-                $insert = "INSERT INTO user(fullname, email, username, phone, password) VALUES('$fullname','$email','$username','$phone','$pass')";
+                $insert = "INSERT INTO user(fullname, email, username, phone, password) VALUES('$fullname','$email','$username','$phone','$password')";
 
                 $iquery = mysqli_query($con, $insert);
                 $_SESSION['username'] = $username;
