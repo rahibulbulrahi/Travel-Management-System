@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -25,14 +26,70 @@
 </head>
 
 <body class="text-center" data-gr-c-s-loaded="true">
-    <form class="form-signin" method="POST" action="index.php" name="datavalid" onsubmit="return validateForm()">
+
+    <?php 
+
+    session_start();
+
+    $username = "";
+    $email = "";
+    include('dbcon.php');
+
+    if(isset($_POST['submit']))
+    {
+        $fullname = mysqli_real_escape_string($con, $_POST['fullname']);
+        $email = mysqli_real_escape_string($con, $_POST['email']);
+        $username = mysqli_real_escape_string($con, $_POST['username']);
+        $phone = mysqli_real_escape_string($con, $_POST['phone']);
+        $password = mysqli_real_escape_string($con, $_POST['password']);
+        $password2 = mysqli_real_escape_string($con, $_POST['repeatpassword']);
+
+        $pass = password_hash($password, PASSWORD_BCRYPT);
+
+        $usernamequery = "select * from user where username = '$username'";
+        $query = mysqli_query($con, $usernamequery);
+
+        $user_count = mysqli_num_rows($query);
+
+
+        if($user_count>0)
+        {
+            echo "Username Already exists";
+        }else
+        {
+            if($password === $password2)
+            {
+                $insert = "INSERT INTO user(fullname, email, username, phone, password) VALUES('$fullname','$email','$username','$phone','$pass')";
+
+                $iquery = mysqli_query($con, $insert);
+                $_SESSION['username'] = $username;
+                $_SESSION['success'] = "You are registared";
+
+                header('location:login.php');
+            }
+            else
+            {
+                echo "Password are not matching";
+            }
+        }
+    }
+    ?>
+
+
+
+
+
+    <form class="form-signin" method="POST" action="" onsubmit="return validateForm()">
         <h1 class="h3 mb-3 font-weight-normal">Please Register Now</h1>
 
-        <label for="name" class="sr-only">Full Name</label>
-        <input type="text" name="name" class="form-control mb-2" placeholder="Full Name" autofocus="" required />
+        <label for="fullname" class="sr-only">Full Name</label>
+        <input type="text" name="fullname" class="form-control mb-2" placeholder="Full Name" autofocus="" required />
 
         <label for="email" class="sr-only">Email address</label>
         <input type="email" name="email" class="form-control mb-2" placeholder="Email address" required />
+
+        <label for="username" class="sr-only">User Name</label>
+        <input type="text" name="username" class="form-control mb-2" placeholder="User Name" required />
 
         <label for="dob" class="sr-only">Date of Birth</label>
         <input type="date" name="dob" class="form-control mb-2" placeholder="Date of birth" required />
@@ -45,9 +102,11 @@
 
         <label for="repeatpassword" class="sr-only">Repeat password</label>
         <input type="password" name="repeatpassword" class="form-control" placeholder="Repeat password" required />
-        <button class="btn btn-lg btn-primary btn-block" type="submit">
+        
+        <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" name="registerbtn">
             Register Now
         </button>
+        
         <p class="mb-2 text-muted">Already Registered,</p>
         <a class="btn btn-lg btn-primary btn-block" href="login.php">Sign In</a>
         <div></div>

@@ -247,3 +247,23 @@ a
     text-decoration: none;
     color: inherit;
 }
+
+ <script>
+    function validateForm() {
+        var eml = document.forms["datavalid"]["email"].value;
+        var pass = document.forms["datavalid"]["password"].value;
+        var mailformat =
+            /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        var patern = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+        if (!mailformat.test(eml)) {
+            alert("Enter Correct format email");
+            return false;
+        } else if (!pass.match(patern)) {
+            alert(
+                "Password have to be 6 to 20 characters which contain at least one numeric digit, one uppercase and one lowercase letter"
+            );
+            return false;
+        }
+        return true;
+    }
+    </script>
