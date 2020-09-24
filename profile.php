@@ -1,3 +1,4 @@
+<?php session_start();?>
 <html>
 
 <head>
@@ -28,12 +29,7 @@
             <!-- first row -->
             <div class="col-12 mb-2 bg-light">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
-                    <form class="form-inline my-2 my-lg-0" method="POST" action="dashboard.php">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" name="search"
-                            aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                    <a class="btn btn-outline-warning ml-2" href="logout.php"><i class="fa fa-sign-out"
+                    <a class="btn btn-outline-warning ml-2" href="index.php"><i class="fa fa-sign-out"
                             aria-hidden="true"></i>
                         Logout
                     </a>
@@ -92,8 +88,8 @@
                 <div class="container">
                     <h2 style="text-align:center">User Profile Card</h2>
                     <div class="card-profile">
-                        <img src="img/swiming-pool.jpg" alt="John" style="width:100%">
-                        <h1>John Doe</h1>
+                       
+                        <h1><span></span></h1>
                         <p class="title">CEO & Founder, Example</p>
                         <p>Harvard University</p>
                         <div style="margin: 24px 0;">

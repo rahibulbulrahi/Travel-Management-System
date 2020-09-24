@@ -27,11 +27,7 @@
             <!-- first row -->
             <div class="col-12 mb-2 bg-light">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
-                    <form class="form-inline my-2 my-lg-0" method="POST" action="dashboard.php">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" name="search"
-                            aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                  
                     <a class="btn btn-outline-warning ml-2" href="logout.php"><i class="fa fa-sign-out"
                             aria-hidden="true"></i>
                         Logout
@@ -96,19 +92,19 @@
                     <table class="table table-hover table-light">
                         <thead class="thead-dark">
                             <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Sl</th>
+                                <th scope="col">Hotel Name</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Duration</th>
                                 <th scope="col">Action</th>
+
                             </tr>
-                        </thead>
-                        <tbody>
+                            <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>Coxs Today</td>
+                                <td>Coxs Bazar</td>
+                                <td>3 Days 2 nights</td>
                                 <td><a class='btn btn-outline-dark mr-2' href="updatehotelbooking.php"><i
                                             class="fa fa-pencil" aria-hidden="true"></i> Update</a><a href='#'
                                         class='btn btn-outline-danger'><i class="fa fa-trash" aria-hidden="true"></i>
@@ -116,9 +112,9 @@
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <td>Redison Blu</td>
+                                <td>Dhaka</td>
+                                <td>2 days 1 night</td>
                                 <td><a class='btn btn-outline-dark mr-2' href="updatehotelbooking.php"><i
                                             class="fa fa-pencil" aria-hidden="true"></i> Update</a><a href='#'
                                         class='btn btn-outline-danger'><i class="fa fa-trash" aria-hidden="true"></i>
@@ -126,15 +122,17 @@
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
+                                <td>Momo Inn</td>
+                                <td>Bogra</td>
+                                <td>3 days 2 night</td>
                                 <td><a class='btn btn-outline-dark mr-2' href="updatehotelbooking.php"><i
                                             class="fa fa-pencil" aria-hidden="true"></i> Update</a><a href='#'
                                         class='btn btn-outline-danger'><i class="fa fa-trash" aria-hidden="true"></i>
                                         Cancel</a></td>
                             </tr>
                         </tbody>
+                        </thead>
+                        
                     </table>
                 </div>
             </div>

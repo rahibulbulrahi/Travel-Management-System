@@ -1,3 +1,10 @@
+<td><a class='btn btn-outline-dark mr-2' href="updatehotelbooking.php"><i
+                                            class="fa fa-pencil" aria-hidden="true"></i> Update</a><a href='#'
+                                        class='btn btn-outline-danger'><i class="fa fa-trash" aria-hidden="true"></i>
+                                        Cancel</a></td>
+
+
+
 <div class="navbar">
         <div class="logo">
           <a href="#">Easy Tour</a>

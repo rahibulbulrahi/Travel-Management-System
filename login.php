@@ -1,4 +1,4 @@
-
+<?php session_start();?>
 <html>
 
 <head>
@@ -28,7 +28,7 @@
 <body class="text-center" data-gr-c-s-loaded="true">
     
    <?php
-         session_start();
+        
         include('dbcon.php');
 
         if(isset($_POST['submit']))
@@ -40,6 +40,7 @@
             $query = mysqli_query($con, $name_search);
             
             $user_count = mysqli_num_rows($query);
+            
 
             if($user_count)
             {
@@ -49,15 +50,20 @@
 
                 $pass_decode = password_verify($password, $db_pass);
 
+                
+
                 if($pass_decode)
                 {
                     echo "Login Complete";
-                   ?>
+
+                 /*  ?>
                     <script>
                         location.replace("dashboard.php");
                     </script>
                     <?php
+                    */
                     header('location:dashboard.php');
+                    $_SESSION['user_name']=$username;
                 }
                 else
                 {
