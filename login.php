@@ -1,3 +1,6 @@
+<?php 
+    session_start();
+?>
 <html>
 
 <head>
@@ -26,7 +29,29 @@
 
 <body class="text-center" data-gr-c-s-loaded="true">
     
-    <form class="form-signin" method="POST" action="logincontrol.php" name="datavalid" onsubmit="return validateForm()">
+    <?php
+        include('dbcon.php');
+
+        if(isset($_POST['signin']))
+        {
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+
+            $name_search = "select * from user where username = '$username'";
+            $query = mysqli_query($con, $name_search);
+            
+            $user_count = mysqli_num_rows($query);
+
+            if($user_count)
+            {
+                
+            }
+
+        }
+    ?>
+
+
+    <form class="form-signin" method="POST" action="<?php echo htmlentities($_SERVER["PHP_SELF"]);?>" name="datavalid" onsubmit="return validateForm()">
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
         <label for="username" class="sr-only">User Name</label>
         <input type="text" name="username" class="form-control mb-2" placeholder="User Name" required autofocus="" />
