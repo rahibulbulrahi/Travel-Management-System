@@ -39,6 +39,9 @@
                         <a data-page="offer" class="nav-link" href="#services">Service</a>
                     </li>
                     <li class="nav-item">
+                        <a data-page="offer" class="nav-link" href="flight.php">Flight</a>
+                    </li>
+                    <li class="nav-item">
                         <a data-page="contact" class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
