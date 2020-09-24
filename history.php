@@ -27,12 +27,8 @@
             <!-- first row -->
             <div class="col-12 mb-2 bg-light">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
-                    <form class="form-inline my-2 my-lg-0" method="POST" action="dashboard.php">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" name="search"
-                            aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                    <a class="btn btn-outline-warning ml-2" href="logout.php"><i class="fa fa-sign-out"
+                    
+                    <a class="btn btn-outline-warning ml-2" href="index.php"><i class="fa fa-sign-out"
                             aria-hidden="true"></i>
                         Logout
                     </a>

@@ -28,7 +28,7 @@
             <div class="col-12 mb-2 bg-light">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-end">
                     
-                    <a class="btn btn-outline-warning ml-2" href="logout.php"><i class="fa fa-sign-out"
+                    <a class="btn btn-outline-warning ml-2" href="index.php"><i class="fa fa-sign-out"
                             aria-hidden="true"></i>
                         Logout
                     </a>
