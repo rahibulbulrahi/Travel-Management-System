@@ -95,36 +95,32 @@
                         <thead class="thead-dark">
                             <tr>
                                 <th scope="col">Sl</th>
-                                <th scope="col">First</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Location</th>
+                                <th scope="col">Duration</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>Sylhet</td>
+                                <td>7 days 6 night</td>
                                 <td><a href='#' class='btn btn-outline-danger'><i class="fa fa-trash"
                                             aria-hidden="true"></i>
                                         Cancel</a></td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
+                                <td>Bali</td>
+                                <td>21 Days 20 night</td>
                                 <td><a href='#' class='btn btn-outline-danger'><i class="fa fa-trash"
                                             aria-hidden="true"></i>
                                         Cancel</a></td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>Larry</td>
-                                <td>the Bird</td>
-                                <td>@twitter</td>
+                                <td>Sundarban</td>
+                                <td>3 days 2 night</td>
                                 <td><a href='#' class='btn btn-outline-danger'><i class="fa fa-trash"
                                             aria-hidden="true"></i>
                                         Cancel</a></td>
