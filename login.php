@@ -1,4 +1,6 @@
-<?php session_start();?>
+<?php session_start();
+  
+?>
 <html>
 
 <head>
@@ -81,6 +83,28 @@
         }
     ?>
 
+    <?php 
+        if (isset($_REQUEST['remember']))
+        $escapedRemember = mysqli_real_escape_string($con,$_REQUEST['remember']);
+     
+      $cookie_time = 60 * 60 * 24 * 30; // 30 days
+       $cookie_time_Onset=$cookie_time+ time();
+       if (isset($escapedRemember)) {
+         /*
+          * Set Cookie from here for one hour
+          * */
+         setcookie("username", $usernameVal, $cookie_time_Onset);
+         setcookie("password", $escapedPW, $cookie_time_Onset);  
+     
+       } else {
+     
+           $cookie_time_fromOffset=time() -$cookie_time;
+     setcookie("username", '',$cookie_time_fromOffset );
+         setcookie("password", '', $cookie_time_fromOffset);  
+     
+       }
+    ?>
+
 
     <form class="form-signin" method="POST" action="loginprocess.php" name="datavalid" onsubmit="return validateForm()">
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
@@ -92,7 +116,7 @@
         <input type="password" name="password" class="form-control" required placeholder="Password" />
         
         <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+        <input class="form-check-input" type="checkbox" id="autoSizingCheck2" name="remember" id="remember" <?php if(isset($_COOKIE['username'])){echo "checked='checked'"; } ?> value="1">
         <label class="form-check-label" for="autoSizingCheck2"><p class="mb-2 text-white">Remember Me</p></label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="signin">Sign in</button>
