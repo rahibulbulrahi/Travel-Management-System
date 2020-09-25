@@ -83,18 +83,17 @@
         }
     ?>
 
-    <?php 
+    <?php
+        
         if (isset($_REQUEST['remember']))
         $escapedRemember = mysqli_real_escape_string($con,$_REQUEST['remember']);
      
       $cookie_time = 60 * 60 * 24 * 30; // 30 days
        $cookie_time_Onset=$cookie_time+ time();
        if (isset($escapedRemember)) {
-         /*
-          * Set Cookie from here for one hour
-          * */
-         setcookie("username", $usernameVal, $cookie_time_Onset);
-         setcookie("password", $escapedPW, $cookie_time_Onset);  
+         
+         setcookie("username", $username, $cookie_time_Onset);
+         setcookie("password", $password, $cookie_time_Onset);  
      
        } else {
      
